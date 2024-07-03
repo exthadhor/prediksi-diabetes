@@ -78,7 +78,7 @@ if st.button('Prediksi'):
 
         # Show diagnosis
         if diab_prediction[0] == 1:
-            st.error('Pasien mungkin terkena diabetes.')
+            st.error('Pasien terkena diabetes.')
         else:
             st.success('Pasien tidak terkena diabetes.')
 
