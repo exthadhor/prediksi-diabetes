@@ -12,24 +12,6 @@ st.set_page_config(
 )
 
 # Judul, gambar, dan deskripsi
-page_bg_img = """
-<style>
-[data-testid="stAppViewContainer"] {
-background-image: url("https://e1.pxfuel.com/desktop-wallpaper/67/946/desktop-wallpaper-dark-grey-background-dark.jpg");
-background-size: cover;
-} 
-
-[data-testid="stHeader]{
-background-color: rgba(0,0,0,0.0);
-}
-
-[data-testid="stToolbar]{
-right: 2rem;
-}
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title('𝐏𝐫𝐞𝐝𝐢𝐤𝐬𝐢 𝐃𝐢𝐚𝐛𝐞𝐭𝐞𝐬 𝐌𝐞𝐧𝐠𝐠𝐮𝐧𝐚𝐤𝐚𝐧 SVM')
 st.image('https://pnghq.com/wp-content/uploads/diabetes-free-png-images-95134.png', width=200)
 st.write('Masukkan nilai-nilai berikut untuk memprediksi apakah seseorang mungkin menderita diabetes.')
