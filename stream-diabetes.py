@@ -18,7 +18,7 @@ st.write('Masukkan nilai-nilai berikut untuk memprediksi apakah seseorang mungki
 st.write('')
 
 # Informasi kelompok dengan tampilan yang lebih rapi
-st.sidebar.title('𝐊𝐞𝐥𝐨𝐦𝐩𝐨𝐤 𝟓')
+st.sidebar.title('𝐊𝐞𝐥𝐨𝐦𝐩𝐨𝐤 VECTOR')
 st.sidebar.subheader('𝐀𝐧𝐠𝐠𝐨𝐭𝐚 :')
 
 # Membuat tabel anggota kelompok menggunakan Markdown
